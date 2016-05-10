@@ -7,6 +7,6 @@ This project is similar to the [Raspberry Pi-based prototype](https://github.com
 This is a more pricey set up, but will provide validation on a mesh formed by more performant nodes. It will also test [cjdns](https://github.com/hyperboria/cjdns) running on a 64-bit ARM processor. Benchmark results will be compared with the Raspberry Pi 2 and 3.
 
 - [ ] [Install Arch Linux ARM](https://archlinuxarm.org/platforms/armv8/amlogic/odroid-c2) on the ODROID-C2
-- [ ] Get cjdns running on the ODROID-C2
+- [ ] [Install cjdns](https://aur.archlinux.org/packages/cjdns-git/) on the ODROID-C2
 - [ ] [Connect a LBE‑5AC‑23](https://help.ubnt.com/hc/en-us/articles/205197750) to the ODROID-C2 gigabit ethernet port, then a second LBE‑5AC‑23 to another gigabit device, configure Ubiquiti AirOS on the LiteBeam to establish a point-to-point link, test for range and data rate
 - [ ] Bind cjdns to the long-range point-to-point interface, note data rate at different distances
